@@ -1,6 +1,5 @@
-from google.colab import drive
-drive.mount('/content/drive', force_remount=True)
 import pandas as pd
+
 dados = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/iris.csv', sep=',')
 dados.head(5)
 
